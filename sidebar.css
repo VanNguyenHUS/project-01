@@ -1,0 +1,28 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 72px;
+  left: 0;
+  bottom: 0;
+  top: 1px;
+  z-index: 3;
+  align-items: center;
+  padding-top: 100px;
+}
+.sidebar-home, .sidebar-subscriptions, .sidebar-libary {
+  width: 64px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-home, .logo-subscriptions, .logo-libary {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 6px;
+}
+.content-sidebar {
+  font-size: 10px;
+}
